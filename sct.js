@@ -95,7 +95,7 @@ function getAdvice(genotype_array){
 			}
 		}
 	}
-	alert(count[4] +  "...." +  count[5]);
+	
 	//gives advice based on the count of SS and SC discovered
 	if (count[4] == 0 && count[5] == 0){ return "This is advisable"; }
 	else if (  count[4] == 1 || count[5] == 1){ return "This is not really advisable";}
